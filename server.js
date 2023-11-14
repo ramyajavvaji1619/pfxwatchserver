@@ -18,10 +18,10 @@ const addVideos = async () => {
                 "name": 
                 "ABN Entertainment" ,
                 "profile_image_url": "https://tse3.mm.bing.net/th?id=OIP.6cZAWai8i2UyWvNkTUX0tgHaHa&pid=Api&P=0&h=220",
-                "subscriber_count": "9.5m"  // convert "4.75k" to a number
+                "subscriber_count": "9.5m"
             }
         ],
-            "view_count": "5.3m",// convert "5.6K" to a number
+            "view_count": "5.3m",
             "published_at": " 2 years ago",
             "description": "Mr. Jay Merchant, Acting Trainer, Darpana Academy, Gujarat",
             "category":"trending"
@@ -39,7 +39,7 @@ const addVideos = async () => {
                 "profile_image_url": "https://cdn-images-1.medium.com/max/1600/1*-0HVQ3RgjQkSYa7OPQCNJQ.jpeg"
             }
         ],
-            "view_count": "5.3m",  // convert "1.4K" to a number
+            "view_count": "5.3m", 
             "published_at": "2 years ago",
             "category":"trending"
         });

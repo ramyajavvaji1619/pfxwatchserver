@@ -24,14 +24,14 @@ router.post("/signup", async (req, res) => {
                 "password": req.body.password,
                 "confirmPasword": req.body.confirmPasword
             };
-            const userDetails = await PerfexUsersData.create(newUser)   //  POSTING TO COLLECTION OR MODEL
+            const userDetails = await PerfexUsersData.create(newUser) 
             console.log(userDetails)
 PerfexUsersData
             res.status(200).send("user created successfully")
 
         } else {
 
-            // if user mail id is founded send below response
+            
             res.status(400).json("user already registered")
 
         }
