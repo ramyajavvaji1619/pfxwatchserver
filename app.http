@@ -1,0 +1,39 @@
+
+GET http://localhost:4445/
+
+###
+GET http://localhost:4445/auth/
+
+###
+GET http://localhost:4445/api/
+###
+POST http://localhost:4445/auth/signup/
+Content-Type: application/json
+
+{
+
+ "name":"charan",
+  "email":"charan@gmail.com",
+  "phoneNumber":"8978980909",
+  "gender":"male",
+  "password":"charan",
+  "confirmPassword":"charan"
+}
+
+###
+POST http://localhost:4445/auth/login
+
+Content-Type: application/json
+
+{
+
+"email":"charan@gmail.com",
+ "password":"charan"
+
+}
+###
+GET http://localhost:4445/api/videos
+
+
+###
+GET http://localhost:4445/api/videos/gaming
