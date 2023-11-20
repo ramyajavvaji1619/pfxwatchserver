@@ -61,7 +61,7 @@ router.get("/videos", jwtAuth, async (req, res) => {
             query.title = { $regex: search, $options: 'i' }
         }
 
-        const filteredVideos = await Video.find(query)
+        const filteredVideos = await Videos.find(query)
 
         if (filteredVideos?.length === 0) {
             return res.status(404).json({ messeage: "No Videos Found" })
